@@ -1,0 +1,41 @@
+ 
+
+ 1. node server environment
+ 
+ **create folder and init project**
+ - npm init
+ ** npm install and express server setting up*** 
+ - npm install -save express body-parser
+ ** run server runtime development command***
+ - npm install --save dev nodemon :OS->linux
+ 
+  **app.js or server.js file making*** 
+ 
+ ** package.json definition***
+  
+  "scripts":{
+    "start": "node app",
+    "dev": "nodemon app.js"
+    }
+
+
+ 2.GraphQL environment
+ 
+ **graphQL package setting up**
+  -npm install --save express-graphql graphql
+** graphql eviroment in app.js or server.js**
+   graphql is type language
+ 
+ 3.GraphQL + MongoDB
+ example: mongoDB user and password
+ Name:Admin
+ Password:Qd0FfcJo3Au0lS1X 
+
+** mongoDB enviroment**
+ - npm install --save mongoose
+ 
+4.React frontend environment
+ **create react app***
+- npx create-react-app .
+** react router****
+- npm install --save react-router-dom
